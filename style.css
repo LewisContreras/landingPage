@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+#header{
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-logo {
+    width: 60vw;
+}
+
+#header-img{
+    width: 100%;
+    max-width: 300px;
+}
+#nav-bar{
+    width: 36vw;
+}
+
+#nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    padding-top: 80px;
+}
+
+
+#nav-bar a{
+    text-decoration: none;
+}
+
+.form-container{
+    width: 100vw;
+}
+
+#form{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#email{
+    width: 60%
+}
+
+#submit{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+.video-container{
+    text-align: center;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.product{
+    margin: 20px;
+    min-width: 220px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    background-color: azure;
+}
+.product h3{
+    background-color: gray;
+}
+
+.product h4{
+    margin: 10px 0;
+}
+.product p{
+    margin-bottom: 10px;
+}
+
+.product a{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding:8px  20px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+footer{
+    background-color: blue;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    text-align: right;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer li{
+    margin: 0 10px 10px 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: blue;
+    }
+}
